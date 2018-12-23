@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Asignación de eventos</title>
+    <style>
+        #content{
+            min-height: 100vh;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+            grid-gap: 5px;
+        }
+        #content div{
+            background-color: tomato;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #content div:nth-child(even){
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+        <div>caja 1</div>
+        <div>caja 2</div>
+        <div>caja 3</div>
+        <div>caja 4</div>
+        <div>caja 5</div>
+        <div>caja 6</div>
+        <div>caja 7</div>
+        <div>caja 8</div>
+        <div>caja 9</div>
+        <div>caja 10</div>
+        <div>caja 11</div>
+        <div>caja 12</div>
+        <div>caja 13</div>
+        <div>caja 14</div>
+        <div>caja 15</div>
+        <div>caja 16</div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
